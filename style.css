@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+ body{
+    background-image: url(https://images3.alphacoders.com/186/186987.jpg);
+    margin:0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffffea;
+    align-items: center;
+    height: 100vh;
+    font-family: 'BebasNeue-Regular';
+
+ }
+
+
+ #calculator{
+    max-width: 360px;
+    background-color: #292c37;
+    border-radius: 13px;
+    padding: 20px;
+    box-shadow: 0 10px 20px #000000;
+ }
+
+ #display{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 25px;
+    border-radius: 3px;
+    color: black;
+    background: #7a907c;
+    border:none;
+    box-sizing: border-box;
+    font-weight: 600;
+ }
+
+ header{
+   margin-bottom: 20px;
+}
+ .equal{
+    width: calc(50% - 10px);
+ }
+
+ button{
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size:20px;
+    margin: 10px 5px;/*referente a cada botão*/
+   border: none;
+   float: right; /*alinhar os elementos a esquerda*/
+   background-color: #85827e;
+   color: white;
+   border-radius: 50px;
+   box-shadow: -1px 1px 10px black ;/*deslocamento da sombra a esquerda*/
+ }
+
+
+ #ac {
+    background: #f4324a;
+    color: bisque;
+
+ }
+
+ #de{
+   background: #f4324a;
+ }
+
+
+ .operator{
+     color: #eaeaea;
+     background: #3b8c88;
+ }
+
+ button:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: beige;
+ }
+
+ button:active{
+    transform: scale(0.9);
+    box-shadow: none;
+ }
+
+ footer{
+   margin-top: 100px;
+ }
+ 
+@font-face {
+   font-family: 'BebasNeue-Regular';
+   src: url(BebasNeue-Regular.ttf);
+}
